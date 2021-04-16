@@ -1,0 +1,16 @@
+
+// MARGIN TOP MT-1 / MT-20
+
+@for $i from 1 through 20 {
+  .mt-#{$i} {
+    margin-top: 10px * $i;
+  }
+}
+
+//PADDING TOP PD-1// PD-20
+
+@for $i from 1 through 20 {
+  .pd-#{$i} {
+  padding-top: 10px * $i;
+  }
+}

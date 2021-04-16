@@ -1,0 +1,22 @@
+
+// BODY
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+// CONTAINERS
+
+.container{
+  width: $container;
+  margin: auto;
+
+  &.container--small{
+    width: $containerSmall;
+  }
+
+  &.container--side{
+    width: $containerSide;
+    margin-left: 40px;
+  }
+}
