@@ -19,12 +19,13 @@ p{
 
 a{
   color: $linkPrimary;
+  text-decoration: none;
 
   &:visited{
     color: $linkPrimary;
   }
 
   &:hover{
-    color: $linkPrimaryHover;
+    text-decoration: underline;
   }
 }

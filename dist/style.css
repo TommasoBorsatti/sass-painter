@@ -44,13 +44,14 @@ p {
 }
 
 a {
-  color: #7ECAF9;
+  color: #0d66d0;
+  text-decoration: none;
 }
 a:visited {
-  color: #7ECAF9;
+  color: #0d66d0;
 }
 a:hover {
-  color: #36b0f7;
+  text-decoration: underline;
 }
 
 .mt-1 {
