@@ -25,8 +25,8 @@ h1 {
   color: #FFF;
 }
 
-h2 {
-  font-size: 30px;
+h3 {
+  font-size: 20px;
 }
 
 .mt-1 {
@@ -109,6 +109,86 @@ h2 {
   margin-top: 200px;
 }
 
+.mr-1 {
+  margin-right: 10px;
+}
+
+.mr-2 {
+  margin-right: 20px;
+}
+
+.mr-3 {
+  margin-right: 30px;
+}
+
+.mr-4 {
+  margin-right: 40px;
+}
+
+.mr-5 {
+  margin-right: 50px;
+}
+
+.mr-6 {
+  margin-right: 60px;
+}
+
+.mr-7 {
+  margin-right: 70px;
+}
+
+.mr-8 {
+  margin-right: 80px;
+}
+
+.mr-9 {
+  margin-right: 90px;
+}
+
+.mr-10 {
+  margin-right: 100px;
+}
+
+.mr-11 {
+  margin-right: 110px;
+}
+
+.mr-12 {
+  margin-right: 120px;
+}
+
+.mr-13 {
+  margin-right: 130px;
+}
+
+.mr-14 {
+  margin-right: 140px;
+}
+
+.mr-15 {
+  margin-right: 150px;
+}
+
+.mr-16 {
+  margin-right: 160px;
+}
+
+.mr-17 {
+  margin-right: 170px;
+}
+
+.mr-18 {
+  margin-right: 180px;
+}
+
+.mr-19 {
+  margin-right: 190px;
+}
+
+.mr-20 {
+  margin-right: 200px;
+}
+
 .pd-1 {
   padding-top: 10px;
 }
@@ -189,13 +269,39 @@ h2 {
   padding-top: 200px;
 }
 
+button {
+  padding: 10px 32px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 3px solid #FFF;
+  font-size: 20px;
+  color: #FFF;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #FFF;
+  color: #000;
+}
+button.alt {
+  background-color: #0D66D0;
+  color: #FFF;
+  border: 3px solid #0D66D0;
+}
+button.alt:hover {
+  background-color: #0654ad;
+  border-color: #0654ad;
+}
+button:focus {
+  outline: none;
+}
+
 #hero {
   height: 90vh;
   background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
   background-size: cover;
 }
 #hero .img-box {
-  width: 60px;
+  width: 65px;
 }
 #hero .img-box > img {
   width: 100%;

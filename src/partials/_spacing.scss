@@ -7,6 +7,14 @@
   }
 }
 
+// MARGIN RIGHT MR-1 / MR-20
+
+@for $i from 1 through 20 {
+  .mr-#{$i} {
+    margin-right: 10px * $i;
+  }
+}
+
 //PADDING TOP PD-1// PD-20
 
 @for $i from 1 through 20 {

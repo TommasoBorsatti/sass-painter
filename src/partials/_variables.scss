@@ -15,7 +15,27 @@ $fontUltra: 45px;
 // COLORS
 
 $primary:#000;
-$secondary: #FFF;
+$secondary:#FFF;
+
+// BUTTONS
+
+// size
+$btnSmall: 40px;
+$btnReg: 60px;
+$btnWide: 90px;
+// padding
+$btnPdSmall: 3px 5px;
+$btnPdReg: 5px 8px;
+$btnPdWide: 10px 32px;
+//BG Color
+$btnMainColor: transparent;
+$btnAltColor: #0D66D0;
+$btnAltColorDark: #0654ad;
+// border:
+$btnBrdThin: 1px;
+$btnBrdReg: 3px;
+$btnBrdThick: 5px;
+
 
 // Hero section
 

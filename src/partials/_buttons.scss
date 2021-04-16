@@ -1,0 +1,37 @@
+
+button{
+
+  padding: $btnPdWide;
+  border-radius: 20px;
+  background-color: $btnMainColor;
+  border: $btnBrdReg solid $secondary;
+  font-size: $fontReg;
+  color: $secondary;
+  cursor: pointer;
+
+  &:hover{
+    background-color: $secondary;
+    color: $primary
+
+  }
+
+  &.alt{
+    background-color: $btnAltColor;
+    color: $secondary;
+    border: $btnBrdReg solid $btnAltColor;
+
+    &:hover{
+      background-color: $btnAltColorDark;
+      border-color: $btnAltColorDark;
+    }
+  }
+
+  &:focus{
+    outline: none;
+  }
+
+
+
+
+
+}
