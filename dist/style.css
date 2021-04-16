@@ -14,6 +14,10 @@ body {
   margin-left: 40px;
 }
 
+.centered {
+  text-align: center;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -25,8 +29,28 @@ h1 {
   color: #FFF;
 }
 
+h2 {
+  font-size: 30px;
+  color: #2C2C2C;
+}
+
 h3 {
   font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+  word-spacing: 3px;
+}
+
+a {
+  color: #7ECAF9;
+}
+a:visited {
+  color: #7ECAF9;
+}
+a:hover {
+  color: #36b0f7;
 }
 
 .mt-1 {
@@ -280,7 +304,7 @@ button {
 }
 button:hover {
   background-color: #FFF;
-  color: #000;
+  color: #2C2C2C;
 }
 button.alt {
   background-color: #0D66D0;
@@ -308,4 +332,28 @@ button:focus {
 }
 #hero h3 {
   color: #FFF;
+}
+
+.sect-box {
+  display: flex;
+  align-items: center;
+}
+.sect-box:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+.sect-box > .video-box {
+  width: 60%;
+}
+.sect-box > .video-box > video {
+  width: 100%;
+}
+.sect-box > .img-box {
+  width: 60%;
+}
+.sect-box > .img-box > img {
+  width: 100%;
+}
+.sect-box > .text-box {
+  width: 40%;
+  padding: 20px;
 }

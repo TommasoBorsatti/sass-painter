@@ -4,6 +4,27 @@ h1{
   color: $secondary;
 }
 
+h2{
+  font-size: $fontBig;
+  color: $primary
+}
 h3{
   font-size: $fontReg;
+}
+
+p{
+  font-size: $fontReg;
+  word-spacing: 3px;
+}
+
+a{
+  color: $linkPrimary;
+
+  &:visited{
+    color: $linkPrimary;
+  }
+
+  &:hover{
+    color: $linkPrimaryHover;
+  }
 }
